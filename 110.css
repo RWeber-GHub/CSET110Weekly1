@@ -1,0 +1,164 @@
+body{
+    
+    margin: auto;
+    border: 1px solid black;
+}
+.menu{
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+a{
+    text-decoration: none;
+}
+a:link{
+    color:black;
+    text-decoration: none;
+}
+a:visited{
+    text-decoration: none;
+    color:black;
+}
+a:hover{
+    color:#0ca39c;
+    text-decoration: none;
+}
+
+.logo{
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 10%;
+    width: 20%;
+    
+}
+.beacon{
+    width: 100%;
+    height: 550px;
+    background-image: url("https://github.com/mainulkdr/lecture-resource/blob/main/CSET-110/Assessment-1%20Resource/images/the-beacon.jpg?raw=true")
+    
+}
+#text{
+}
+#head{
+    margin-top: 100px;
+    margin-right: 250px;
+    float: right;
+    font-size: 25px;
+    margin-bottom: 20px;
+    height:50px;
+    padding-top:20px;
+    color: black;
+    background-color: white;
+    text-align: center;
+    width:30%;
+}
+
+#t1{
+    padding-top: 10px;
+    clear: right;
+    float: right;
+    margin-right: 320px;
+    width: 25%;
+    height: 40px;
+    background-color: #252525;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-bottom: 15px;
+}
+
+#t2{
+    padding-top: 10px;
+    clear: right;
+    float: right;
+    margin-right: 240px;
+    height: 40px;
+    width: 30%;
+    background-color: #252525;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-bottom: 15px;
+}
+
+#t3{
+    padding-top: 10px;
+    clear: right;
+    float: right;
+    margin-right: 390px;
+    width: 20%;
+    background-color: #252525;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-bottom: 15px;
+}
+
+#rm{
+    clear: right;
+    float: right;
+    margin-right: 550px;
+    text-align: center;
+    width: 10%;
+    color:white;
+    height: 50px;
+    padding-top: 20px;
+    font-size: 20px;
+    background-color: #0ca39c;
+}
+.cuts{
+    margin-right: 15%;
+    margin-left:15%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.father{
+    border:2px solid rgb(50, 50, 50);
+    opacity: 55%;
+}
+.actor{
+    border:2px solid rgb(50, 50, 50);
+    opacity: 55%;
+}
+.nerd{
+    border:2px solid rgb(50, 50, 50);
+    opacity: 55%;
+}
+.label{
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+    margin-right: 15%;
+    margin-left:15%;
+}
+.footer{
+    background-color: #252525;
+    height: 150px;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#copyright{
+    margin-top: 70px;
+    display: flex;
+    color:white;
+    margin-right: 20%;
+}
+#media{
+    display: flex;
+    
+    
+}
