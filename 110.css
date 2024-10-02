@@ -196,3 +196,15 @@ a:hover{
 #pinterest:hover{
     background-image: url("https://github.com/mainulkdr/lecture-resource/blob/main/CSET-110/Assessment-1%20Resource/images/icons/icon-pinterest-hover.jpg?raw=true")
 }
+#headtag{
+    display: flex;
+    margin-left: 30%;
+    margin-right: 30%;
+    justify-content: center;
+    height: 10%;
+    width: 40%;
+    font-size: 30px;
+    color: white;
+    background-color: #252525;
+    text-align: center;
+}
