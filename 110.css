@@ -157,8 +157,42 @@ a:hover{
     color:white;
     margin-right: 20%;
 }
-#media{
+#mediaIcons{
+    margin-top: 50px;
     display: flex;
-    
-    
+}
+#twitter{
+    margin-right: 10px;
+    height: 45px;
+    width: 45px;
+    background-image: url("https://github.com/mainulkdr/lecture-resource/blob/main/CSET-110/Assessment-1%20Resource/images/icons/icon-twitter.jpg?raw=true");
+}
+#twitter:hover{
+    background-image: url("https://github.com/mainulkdr/lecture-resource/blob/main/CSET-110/Assessment-1%20Resource/images/icons/icon-twitter-hover.jpg?raw=true");
+}
+#facebook{
+    margin-right: 10px;
+    height: 45px;
+    width: 45px;
+    background-image: url("https://github.com/mainulkdr/lecture-resource/blob/main/CSET-110/Assessment-1%20Resource/images/icons/icon-facebook.jpg?raw=true");
+}
+#facebook:hover{
+    background-image: url("https://github.com/mainulkdr/lecture-resource/blob/main/CSET-110/Assessment-1%20Resource/images/icons/icon-facebook-hover.jpg?raw=true");
+}
+#gplus{
+    margin-right: 10px;
+    height: 45px;
+    width: 45px;
+    background-image: url("https://github.com/mainulkdr/lecture-resource/blob/main/CSET-110/Assessment-1%20Resource/images/icons/icon-googleplus.jpg?raw=true");
+}
+#gplus:hover{
+    background-image: url("https://github.com/mainulkdr/lecture-resource/blob/main/CSET-110/Assessment-1%20Resource/images/icons/icon-googleplus-hover.jpg?raw=true")
+}
+#pinterest{
+    height: 45px;
+    width: 45px;
+    background-image: url("https://github.com/mainulkdr/lecture-resource/blob/main/CSET-110/Assessment-1%20Resource/images/icons/icon-pinterest.jpg?raw=true") ;
+}
+#pinterest:hover{
+    background-image: url("https://github.com/mainulkdr/lecture-resource/blob/main/CSET-110/Assessment-1%20Resource/images/icons/icon-pinterest-hover.jpg?raw=true")
 }
