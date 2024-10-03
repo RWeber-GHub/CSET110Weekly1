@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
     
     margin: auto;
@@ -8,7 +14,7 @@ body{
     display: flex;
     justify-content: space-around;
     flex-direction: row;
-    width: 40%;
+    max-width: 30%;
     margin-left: 30%;
     margin-right: 30%;
 }
@@ -43,12 +49,19 @@ a:hover{
     background-image: url("https://github.com/mainulkdr/lecture-resource/blob/main/CSET-110/Assessment-1%20Resource/images/the-beacon.jpg?raw=true")
     
 }
-#text{
+#text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; 
+    align-items: flex-end; 
+    margin-right: 5%; 
+    max-width: 100%; 
+    color: white; 
+    padding: 20px; 
 }
+
 #head{
     margin-top: 100px;
-    margin-right: 250px;
-    float: right;
     font-size: 25px;
     margin-bottom: 20px;
     height:50px;
@@ -61,9 +74,6 @@ a:hover{
 
 #t1{
     padding-top: 10px;
-    clear: right;
-    float: right;
-    margin-right: 320px;
     width: 25%;
     height: 40px;
     background-color: #252525;
@@ -77,9 +87,6 @@ a:hover{
 
 #t2{
     padding-top: 10px;
-    clear: right;
-    float: right;
-    margin-right: 240px;
     height: 40px;
     width: 30%;
     background-color: #252525;
@@ -93,9 +100,6 @@ a:hover{
 
 #t3{
     padding-top: 10px;
-    clear: right;
-    float: right;
-    margin-right: 390px;
     width: 20%;
     background-color: #252525;
     color: white;
@@ -107,9 +111,7 @@ a:hover{
 }
 
 #rm{
-    clear: right;
-    float: right;
-    margin-right: 550px;
+   
     text-align: center;
     width: 10%;
     color:white;
@@ -196,15 +198,117 @@ a:hover{
 #pinterest:hover{
     background-image: url("https://github.com/mainulkdr/lecture-resource/blob/main/CSET-110/Assessment-1%20Resource/images/icons/icon-pinterest-hover.jpg?raw=true")
 }
-#headtag{
+#headtag {
+    margin: 0 auto;
     display: flex;
-    margin-left: 30%;
-    margin-right: 30%;
     justify-content: center;
     height: 10%;
-    width: 40%;
-    font-size: 30px;
+    max-width: 35%;
+    font-size: 60px;
     color: white;
     background-color: #252525;
     text-align: center;
+}
+.headtext{
+    font-size:20px;
+    color:#252525;
+}
+.textblocks {
+    margin:0 auto;
+    display: flex;
+    flex-direction: column;
+    max-width: 40%; 
+    text-align: center;
+    justify-content: center;
+}
+#player{
+    max-width: 40%;
+    background-repeat:no-repeat;
+    margin-left: 30%;
+    margin-right: 30%;
+    height: 300px;
+    width:40%;
+    border: 2px solid rgb(50, 50, 50);
+    background-image: url("https://github.com/mainulkdr/lecture-resource/blob/main/CSET-110/Assessment-1%20Resource/images/photographer.jpg?raw=true");
+}   
+#text1, #text2, #text3, #text4 {
+    margin: 0 auto;
+    
+}
+#text1, #text2, #text3, #text4 {
+    text-align: center;
+    width: 100%; 
+    margin-bottom: 20px; 
+    padding: 10px; 
+    box-sizing: border-box; 
+    margin: 0 auto;
+}
+.underline{
+    text-decoration: underline;
+}
+
+@media (min-width: 768px) {
+    .menu {
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .textblocks, #player {
+        width: 60%;
+    }
+}
+
+
+@media (max-width: 767px) {
+    .menu {
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+        font-size: 18px;
+    }
+
+    .logo {
+        width: 50%;
+        height: auto;
+    }
+
+    .beacon {
+        height: auto;
+    }
+
+    #head {
+        width: 80%;
+        margin-right: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #t1, #t2, #t3, #rm {
+        float: none;
+        width: 90%;
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center;
+    }
+
+    .cuts {
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+
+    .father, .actor, .nerd {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+    .label {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .textblocks, #player {
+        width: 90%;
+        margin: 0 auto;
+    }
 }
