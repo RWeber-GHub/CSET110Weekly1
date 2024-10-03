@@ -44,8 +44,10 @@ a:hover{
     
 }
 .beacon{
-    width: 100%;
-    height: 550px;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    height: 600px;
+    background-size: 100vw 100vh;
     background-image: url("https://github.com/mainulkdr/lecture-resource/blob/main/CSET-110/Assessment-1%20Resource/images/the-beacon.jpg?raw=true")
     
 }
@@ -227,7 +229,6 @@ a:hover{
     margin-left: 30%;
     margin-right: 30%;
     height: 300px;
-    width:40%;
     border: 2px solid rgb(50, 50, 50);
     background-image: url("https://github.com/mainulkdr/lecture-resource/blob/main/CSET-110/Assessment-1%20Resource/images/photographer.jpg?raw=true");
 }   
